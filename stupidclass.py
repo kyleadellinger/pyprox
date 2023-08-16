@@ -2,7 +2,7 @@
 import json
 
 class ReadJson:
-    def __init__(self, data, ticket, cap, vms, username, nodes):
+    def __init__(self, data, ticket, cap, vms, username, nodes="None"):
         self.data = data
         self.ticket = ticket
         self.cap = cap
